@@ -1,0 +1,399 @@
+@media only screen and (min-width: 650px) {
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat";
+}
+
+html,body {
+    height: 100%;
+    background-color: transparent;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+
+}
+
+.container {
+    position: relative;
+    width: fit-content;
+    margin: auto;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.gui {
+    width: fit-content;
+    height: 267px;
+    background-color: rgba(0, 0, 0, 0.842);
+    border: solid 3px red;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.tool {
+    width: 55px;
+    height: 25px;
+    background-color: rgba(0, 0, 0, 0.842);
+    margin-top: -37px;
+    margin-left: 5px;
+    border: solid 3px red;
+    border-radius: 5px 5px 0 0;
+}
+
+.tab {
+    display: inline-block;
+    background-color: black;
+    width: 150px;
+    height: 262px;
+    border: solid 2px red;
+    border-radius: 5px 0 0 5px;
+    color: white;
+    vertical-align: top;
+    overflow: hidden;
+    overflow-y: scroll
+}
+
+.ctn {
+    display: inline-block;
+    background-color: black;
+    width: 420px;
+    height: 252px;
+    border: solid 2px red;
+    border-radius: 0 5px 5px 0;
+    color: white;
+    vertical-align: top;
+    padding: 5px;
+    overflow: hidden;
+    overflow-y: scroll
+}
+
+.btn {
+    width: 125px;
+    height: fit-content;
+    font-size: 15px;
+    background-color: red;
+    color: rgb(255, 255, 255);
+    border: solid 3px red;
+    margin: 5px;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+
+.btn:hover {
+    box-shadow: 0 0 15px 1px rgb(255, 255, 255);
+}
+
+.btn:active {
+    background-color: red;
+    box-shadow: 0 0 16px #0040ff;
+}
+
+.ctn::-webkit-scrollbar,.tab::-webkit-scrollbar {
+width: 5px;
+}
+
+.ctn::-webkit-scrollbar-thumb, .tab::-webkit-scrollbar-thumb {
+background-color: red;
+
+}
+
+.avt {
+    width: fit-content;
+    margin: auto;
+}
+
+.avt img {
+    border-radius: 50%;
+}
+
+.tabbtn {
+    margin-left: 7px;
+}
+
+.ctnbtn {
+    margin-left: 15px;
+}
+
+.line {
+    border: solid 1px red;
+    width: 96.5%;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+}
+
+/*smaller screen*/
+
+@media only screen and (max-width: 650px) {
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat";
+}
+
+html,body {
+    height: 100%;
+    background-color: transparent;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+
+}
+
+.container {
+    position: relative;
+    width: fit-content;
+    margin: auto;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.gui {
+    width: 400px;
+    height: 267px;
+    background-color: rgba(0, 0, 0, 0.842);
+    border: solid 3px red;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.tool {
+    width: 55px;
+    height: 25px;
+    background-color: rgba(0, 0, 0, 0.842);
+    margin-top: -37px;
+    margin-left: 5px;
+    border: solid 3px red;
+    border-radius: 5px 5px 0 0;
+}
+
+.tab {
+    display: inline-block;
+    background-color: black;
+    width: 150px;
+    height: 262px;
+    border: solid 2px red;
+    border-radius: 5px 0 0 5px;
+    color: white;
+    vertical-align: top;
+    overflow: hidden;
+    overflow-y: scroll
+}
+
+.ctn {
+    display: inline-block;
+    background-color: black;
+    width: 227px;
+    height: 252px;
+    border: solid 2px red;
+    border-radius: 0 5px 5px 0;
+    color: white;
+    vertical-align: top;
+    padding: 5px;
+    overflow: hidden;
+    overflow-y: scroll
+}
+
+.btn {
+    width: 125px;
+    height: fit-content;
+    font-size: 15px;
+    background-color: red;
+    color: rgb(255, 255, 255);
+    border: solid 3px red;
+    margin: 5px;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+
+.btn:hover {
+    box-shadow: 0 0 15px 1px rgb(255, 255, 255);
+}
+
+.btn:active {
+    background-color: red;
+    box-shadow: 0 0 16px #0040ff;
+}
+
+.ctn::-webkit-scrollbar,.tab::-webkit-scrollbar {
+width: 5px;
+}
+
+.ctn::-webkit-scrollbar-thumb, .tab::-webkit-scrollbar-thumb {
+background-color: red;
+
+}
+
+.avt {
+    width: fit-content;
+    margin: auto;
+}
+
+.avt img {
+    border-radius: 50%;
+}
+
+.tabbtn {
+    margin-left: 7px;
+}
+
+.ctnbtn {
+    margin-left: 15px;
+}
+
+.line {
+    border: solid 1px red;
+    width: 96.5%;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+}
+
+@media only screen and (max-width: 420px) {
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat";
+}
+
+html,body {
+    height: 100%;
+    background-color: transparent;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+
+}
+
+.container {
+    position: relative;
+    width: fit-content;
+    margin: auto;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.gui {
+    width: 250px;
+    height: 267px;
+    background-color: rgba(0, 0, 0, 0.842);
+    border: solid 3px red;
+    border-radius: 10px;
+    padding: 5px;
+    overflow: hidden;
+    overflow-y: scroll
+}
+
+.tool {
+    width: 55px;
+    height: 25px;
+    background-color: rgba(0, 0, 0, 0.842);
+    margin-top: -37px;
+    margin-left: 5px;
+    border: solid 3px red;
+    border-radius: 5px 5px 0 0;
+}
+
+.tab {
+    background-color: black;
+    width: 240px;
+    height: 150px;
+    border: solid 2px red;
+    border-radius: 5px 0 0 5px;
+    color: white;
+    vertical-align: top;
+    overflow: hidden;
+    overflow-y: scroll
+}
+
+.ctn {
+    background-color: black;
+    width: 230px;
+    height: 252px;
+    border: solid 2px red;
+    border-radius: 0 5px 5px 0;
+    color: white;
+    vertical-align: top;
+    padding: 5px;
+    overflow: hidden;
+    overflow-y: scroll;
+    margin-top: 10px;
+}
+
+.btn {
+    width: 125px;
+    height: fit-content;
+    font-size: 15px;
+    background-color: red;
+    color: rgb(255, 255, 255);
+    border: solid 3px red;
+    margin: 5px;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+
+.btn:hover {
+    box-shadow: 0 0 15px 1px rgb(255, 255, 255);
+}
+
+.btn:active {
+    background-color: red;
+    box-shadow: 0 0 16px #0040ff;
+}
+
+.ctn::-webkit-scrollbar,.tab::-webkit-scrollbar, .gui::-webkit-scrollbar {
+width: 5px;
+}
+
+.ctn::-webkit-scrollbar-thumb, .tab::-webkit-scrollbar-thumb, .gui::-webkit-scrollbar-thumb {
+background-color: red;
+
+}
+
+.avt {
+    width: fit-content;
+    margin: auto;
+}
+
+.avt img {
+    border-radius: 50%;
+}
+
+.tabbtn {
+    margin-left: calc(50% - 70px);
+}
+
+.ctnbtn {
+    margin-left: 15px;
+}
+
+.line {
+    border: solid 1px red;
+    width: 96.5%;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+}
+
